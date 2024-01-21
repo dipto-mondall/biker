@@ -197,7 +197,7 @@
     <main class="container px-5 mx-auto">
       <!-- fetured section -->
       <section id="fetured" class="mt-[130px]">
-        <h2 class="text-center text-xl lg:text-5xl font-bold">
+        <h2 class="text-center text-2xl lg:text-5xl font-bold">
           Fetured Bikes In This Year
         </h2>
         <div
@@ -213,11 +213,11 @@
       <!-- latest section -->
       <section id="latest" class="mt-[130px]">
         <h2
-          class="text-[#0A0826] text-xl lg:text-5xl font-semibold text-center mb-12"
+          class="text-[#0A0826] text-2xl lg:text-5xl font-semibold text-center mb-12"
         >
           latest News
         </h2>
-        <div class="grid gap-10 grid-cols-1  md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <!-- card-1 -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
@@ -292,7 +292,96 @@
           </div>
         </div>
       </section>
+
+      <!-- Frequently section -->
+      <section id="frequently" class="my-[130px]">
+        <h2 class="text-center mb-6 lg:mb-12 font-semibold text-2xl lg:text-5xl text-[#0D0925]">
+          Frequently Asked <span class="text-[#E76F51]">Questions</span>
+        </h2>
+        <div class="flex flex-col lg:flex-row justify-between gap-14 lg:gap-[10%] items-center">
+          <!-- left -->
+          <div class="w-full lg:w-2/5">
+            <img class=" lg:w-[80%]" src="./images/others/faq.png" alt="">
+          </div>
+          <!-- right -->
+          <div class="w-full lg:w-1/2">
+            <div class="join join-vertical w-full space-y-3">
+              <!-- 1 -->
+              <div class="collapse collapse-arrow join-item border border-base-300 ">
+                <input type="radio" name="my-accordion-4" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium lg:px-9">
+                  <h2>What are the most important things I should
+                    know about riding a bike?</h2>
+                </div>
+                <div class="collapse-content lg:px-9"> 
+                  <p class="text-[#7E848C] text-base font-normal">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="collapse collapse-arrow join-item border border-base-300">
+                <input type="radio" name="my-accordion-4" /> 
+                <div class="collapse-title text-xl font-medium lg:px-9">
+                  <h2>How can I tell if my helmet is old and I need a 
+                    new one?</h2>
+                </div>
+                <div class="collapse-content lg:px-9"> 
+                  <p class="text-[#7E848C] text-base font-normal">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="collapse collapse-arrow join-item border border-base-300">
+                <input type="radio" name="my-accordion-4" /> 
+                <div class="collapse-title text-xl font-medium lg:px-9">
+                  <h2>My bike has been in storage is it safe to ride?</h2>
+                </div>
+                <div class="collapse-content lg:px-9"> 
+                  <p class="text-[#7E848C] text-base font-normal">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="collapse collapse-arrow join-item border border-base-300">
+                <input type="radio" name="my-accordion-4" /> 
+                <div class="collapse-title text-xl font-medium lg:px-9">
+                  <h2>What rules should I follow when riding my bike?</h2>
+                </div>
+                <div class="collapse-content lg:px-9"> 
+                  <p class="text-[#7E848C] text-base font-normal">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
-    <footer></footer>
+
+    <!-- footer -->
+    <footer class="bg-black py-14">
+      <div class="container mx-auto px-5 text-white text-base font-normal">
+           <div class="flex justify-between gap-6 flex-col lg:flex-row">
+            <div class="space-y-4">
+              <div>
+                <a class="inline mr-6" href="">Download Now</a>
+                <a class="inline" href="">License</a>
+              </div>
+              <div >
+                <a class="inline mr-6" href="">About</a>
+                <a class="inline mr-6" href="">Features</a>
+                <a class="inline mr-6" href="">Pricing</a>
+                <a class="inline mr-6" href="">Careers</a>
+                <a class="inline mr-6" href="">Help</a>
+                <a class="inline " href="">Privacy Policy</a>
+                
+              </div>
+              <small>© 2020 bike. All rights reserved</small>
+            </div>
+            <div class="space-y-4">
+              <h2 class="text-xl">Get the App</h2>
+              <img class="w-1/2" src="./images/others/ios.png" alt="">
+              <img class="w-1/2" src="./images/others/android.png" alt="">
+            </div>
+           </div>
+      </div>
+    </footer>
   </body>
 </html>
